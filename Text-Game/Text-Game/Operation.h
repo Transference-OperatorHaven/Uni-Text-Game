@@ -16,9 +16,35 @@
 
 using namespace std;
 
+extern string userInput;
+extern int vector_i, tracker;
+extern vector<string> splitInput;
+extern bool wipeText;
+
 #pragma comment(lib, "winmm.lib")
 int Random(int min, int max);
 void TypeWrite(string str, int time);
+void Opening();
+void Title();
+void Intro();
 void InitiateOperation();
 void TakeInput();
+void EmptyInput();
+void Operation();
+void GhostOS(bool wipeText);
+void Help();
+void EvidenceUse(string tag);
+void Name();
+void Human();
+void Salt();
+void Food();
+void Camera();
+void Water();
+void List();
+void Guess();
+void AttemptHunt();
+void Hunt();
+void Death();
+void End();
+
 
